@@ -1,0 +1,188 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+	background: #eee;
+	padding: 0 16px;
+}
+
+header {
+	background-color: #a99f83;
+	margin: auto -16px;
+	padding: 16px 32px;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+	color: greenyellow;
+	font-family: 'McLaren', cursive;
+	font-weight: 200;
+	text-align: center;
+}
+h3 {
+	color: rgba(93, 185, 210, 0.681);
+	font-family: 'McLaren', cursive;
+	font-weight: 200;
+	text-align: center;
+}
+ul {
+	display: flex;
+	justify-content: space-between;
+	text-decoration: none;
+	height: 200px;
+	background-color: #a99f83;
+	margin: auto -16px;
+	padding: 16px 32px;
+	background-image: url('https://image.shutterstock.com/image-illustration/website-header-banner-design-abstract-260nw-1621024345.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+li {
+	list-style: none;
+	color: #85a983;
+}
+li a {
+	text-decoration: none;
+	color: #85a983;
+	font-size: 2rem;
+}
+section {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid rgb(201, 227, 201);
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 10px;
+	box-shadow: 5px 5px 4px 3px rgba(162, 189, 134, 0.359);
+}
+section button {
+	color: white;
+	border-radius: 20px;
+	background-color: green;
+	padding: 10px;
+}
+section button:hover {
+	transform: scale(2);
+	box-shadow: 3px 5px 4px 6px #a99f83;
+}
+section:hover {
+	box-shadow: 3px 5px 4px 6px rgba(87, 66, 66, 0.332);
+	cursor: pointer;
+	background-color: blanchedalmond;
+}
+section img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+img:hover {
+	transform: scale(2);
+}
+section h1 {
+	color: rgba(93, 185, 210, 0.681);
+}
+.about-info {
+	text-align: center;
+	color: green;
+	margin: 50px;
+}
+.about-info img {
+	border-radius: 50%;
+	margin-top: 15px;
+}
+footer {
+	position: relative;
+	text-align: center;
+	bottom: fixed;
+	width: 100%;
+	height: 2.5rem;
+}
+
+footer p {
+	color: #ccc;
+	background-image: url('https://www.selle-fassaden.de/wp-content/uploads/2014/12/footer-background-011.jpg');
+	width: 100%;
+	height: 100px;
+	background-size: cover;
+	background-position: center;
+	padding: 30px;
+}
+.note {
+	background: #fff;
+	border-radius: 7px;
+	box-shadow: 0 2px 5px #ccc;
+	padding: 10px;
+	width: 240px;
+	margin: 16px;
+	float: left;
+}
+.note h1 {
+	font-size: 1.1em;
+	margin-bottom: 6px;
+}
+.note p {
+	font-size: 1.1em;
+	margin-bottom: 10px;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+.note button {
+	position: relative;
+	float: right;
+	margin-right: 10px;
+	color: #dcaa22;
+	border: none;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	outline: none;
+	box-shadow: 2px 3px 4px 2px rgb(132, 160, 132);
+}
+.logo {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+form {
+	position: relative;
+	width: 480px;
+	margin: 30px auto 20px auto;
+	background: rgba(137, 91, 46, 0.133);
+	padding: 15px;
+	border-radius: 7px;
+	box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form input,
+form textarea {
+	width: 80%;
+	border: 1px solid gray;
+	padding: 4px;
+	outline: none;
+	font-size: 1.2em;
+	font-family: inherit;
+	resize: none;
+}
+form button {
+	position: absolute;
+	right: 18px;
+	bottom: -18px;
+	background: green;
+	color: #fff;
+	border: none;
+	border-radius: 50%;
+	width: 36px;
+	height: 36px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+	outline: none;
+}
