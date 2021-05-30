@@ -5,8 +5,6 @@ import PostDelete from "./PostDelete";
 import CreateArea from "./CreateArea";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-
 export default function PostPreviewer() {
     const [notes, setNotes] = useState([]);
 

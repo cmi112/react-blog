@@ -5,8 +5,8 @@ function Footer() {
   let today = new Date().toISOString().slice(0, 10)
   return (
     <footer>
-      <p style={{color:"green",alignSelf:"flex-end",marginTop:"150px"}}>Copyright ⓒ {year} CMI-Tech  {today}</p>
-     
+      <p style={{color:"green",alignSelf:"flex-end",marginTop:"150px"}}>ⓒ CMI-Tech  {today}</p>
+   
     </footer>
   );
 }

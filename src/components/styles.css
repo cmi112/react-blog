@@ -9,6 +9,8 @@ html {
 body {
 	background: #eee;
 	padding: 0 16px;
+
+
 }
 
 header {
@@ -17,7 +19,51 @@ header {
 	padding: 16px 32px;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
+.hero {
+	background-image: url("../photos/goran-ivos-iOykDIkZLQw-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
 
+	text-align:end;
+
+}
+.profile{
+	border-radius: 50%;
+	width: 300px;
+	margin-right: 20px;
+	
+
+}
+.hero-info{
+	display: flex;
+	justify-content: space-between;
+	
+
+	
+}
+.left-text-hero{
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	width: 500px;
+	padding: 10px;
+	
+
+}
+.html-sec {
+	color: green;
+}
+	
+.css-sec {
+	color: green;
+
+}
+.js-sec {
+	color: green;
+
+}
 h1 {
 	color: greenyellow;
 	font-family: 'McLaren', cursive;
@@ -25,7 +71,7 @@ h1 {
 	text-align: center;
 }
 h3 {
-	color: rgba(93, 185, 210, 0.681);
+	color: green;
 	font-family: 'McLaren', cursive;
 	font-weight: 200;
 	text-align: center;
@@ -62,6 +108,16 @@ section {
 	margin: 10px;
 	padding: 10px;
 	box-shadow: 5px 5px 4px 3px rgba(162, 189, 134, 0.359);
+	background-color: rgba(70, 37, 37, 0.509);
+
+	/* background-image: url("https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; */
+	width: 100%;
+	height: 100vh;
+	background-position-x: center;
+	color: white;
 }
 section button {
 	color: white;
@@ -76,7 +132,7 @@ section button:hover {
 section:hover {
 	box-shadow: 3px 5px 4px 6px rgba(87, 66, 66, 0.332);
 	cursor: pointer;
-	background-color: blanchedalmond;
+	background-color: #ccc;
 }
 section img {
 	width: 100px;
@@ -89,6 +145,26 @@ img:hover {
 section h1 {
 	color: rgba(93, 185, 210, 0.681);
 }
+/* .js-sec {
+	background-image: url("https://www.inovex.de/blog/wp-content/uploads/2022/01/one-year-of-react-native.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	background-position-x: center;
+	color: white;
+}
+.sql-sec{
+	background-image: url("https://community-cdn-digitalocean-com.global.ssl.fastly.net/variants/2mntWPfUP98xPpz7Cp78aLjk/035575f2985fe451d86e717d73691e533a1a00545d7230900ed786341dc3c882");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	background-position-x: center;
+	color: white;
+} */
 .about-info {
 	text-align: center;
 	color: green;

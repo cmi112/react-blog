@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Home from "./Navbar-items/Home"
 import About from "./Navbar-items/About"
-import Blog from "./Navbar-items/Blog"
+import Blog from "../components/Blog"
 import Logo from "./Navbar-items/Logo"
 import Projects from "./Navbar-items/Projects"
 

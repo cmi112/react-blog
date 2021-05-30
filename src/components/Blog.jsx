@@ -1,5 +1,5 @@
 import React from 'react'
-import PostPreviewer from "../PostPreviewer"
+import PostPreviewer from "./PostPreviewer"
 
 export default function Blog() {
     
